@@ -296,22 +296,25 @@
 
 
             <td>
-              <br />
+              <hr />
               A) What is the network address and the subnet mask for the first LAN?
+              <hr />
             </td>
           </tr>
           <tr>
 
 
             <td>
-              <br />
               B) What is the network increment value for the second LAN?
+              <hr />
             </td>
           </tr>
           <tr>
             <td>
-              How many bits were borrowed respectively to create 100, 50, and 8 hosts?
+              C) How many bits were borrowed respectively to create 100, 50, and 8 hosts?
             </td>
+          </tr>
+          <tr>
             <td>
               <ol type="I">
                 <li>
@@ -336,7 +339,19 @@
         <table>
           <tr>
             <td>
-              <img src="image/SSH.jpg" width="400" length="200" />
+              <hr />
+              R1(config)#service password-encryption<br />
+              R1(config)#security password min-length 10<br />
+              R1(config)#no ip domain-lookup<br />
+              R1(config)#login block-for 180 attempts 4 within 120<br />
+              R1(config)#username admin secret cisco123<br />
+              How many bits in the modulus [512]: 1024<br />
+              R1(config)#line vty 0 4<br />
+              R1(config-line)#exec-timeout 5 0<br />
+              R1(config-line)#exit<br />
+              R1(config)#<br />
+              <hr />
+
             </td>
           </tr>
           <tr>
@@ -348,6 +363,7 @@
 
           <tr>
             <td>
+              <hr />
               B) What is the purpose of the following commands:
               <table>
                 <tr>
